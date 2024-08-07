@@ -3,6 +3,10 @@
 import requests
 import sys
 
+""" Python script that, using this REST API, for a given employee ID,
+    returns information about his/her TODO list progress.
+"""
+
 
 def get_employee_todo_progress(e_id):
     try:
