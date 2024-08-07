@@ -9,6 +9,7 @@ import sys
 
 
 def get_employee_todo_progress(e_id):
+    """ Operation to get employee todos progres"""
     try:
         # get the employee info
         employee_url = f'https://jsonplaceholder.typicode.com/todos/{e_id}'
